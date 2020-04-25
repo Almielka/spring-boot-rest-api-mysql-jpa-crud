@@ -15,11 +15,13 @@ REST API is secured with HTTP Basic Authentication. The existing roles are liste
 - Content Manager — administrator able to manage comanies and products
 
 login: Manager
+
 password: Manager
 
 - Customer — able to search and order products
 
 login: Customer
+
 password: Customer
 
 ## Layered Architecture
