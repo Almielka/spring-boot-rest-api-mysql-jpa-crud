@@ -1,4 +1,4 @@
-# Spring Boot REST API MySQL JPA CRUD example
+# REST API application Layered Architecture, CRUD and not only operations and Tests
 
 Tools and Technologies: Java8, Spring Boot, MySQL, Maven, IntelliJ IDEA, REST API, Postman, JUnit, Mockito.
 
