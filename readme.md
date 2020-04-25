@@ -13,10 +13,12 @@ Project uses an in-memory database MySQL which gets populated at startup with da
 REST API is secured with HTTP Basic Authentication. The existing roles are listed below with the corresponding percompanies:
 
 - Content Manager — administrator able to manage comanies and products
+
 login: Manager
 password: Manager
 
 - Customer — able to search and order products
+
 login: Customer
 password: Customer
 
