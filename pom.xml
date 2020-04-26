@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.almielka</groupId>
-	<artifactId>spring-boot-rest-api-mysql-jpa-crud-example</artifactId>
+	<artifactId>rest-api-crud-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-rest-api-mysql-jpa-crud-example</name>
+	<name>rest-api-crud-example</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
