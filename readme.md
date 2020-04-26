@@ -1,4 +1,4 @@
-# Spring Boot REST API MySQL JPA CRUD example
+# REST API application Layered Architecture, CRUD and not only operations and Tests
 
 Tools and Technologies: Java8, Spring Boot, MySQL, Maven, IntelliJ IDEA, REST API, Postman, JUnit, Mockito.
 
@@ -13,22 +13,26 @@ Project uses an in-memory database MySQL which gets populated at startup with da
 REST API is secured with HTTP Basic Authentication. The existing roles are listed below with the corresponding percompanies:
 
 - Content Manager — administrator able to manage comanies and products
+
 login: Manager
+
 password: Manager
 
 - Customer — able to search and order products
+
 login: Customer
+
 password: Customer
 
 ## Layered Architecture
 
 | Layer | Source |
 |--|--|
-| JavaBean domain| [domain folder](src/main/java/com/almielka/springbootrestapimysqljpacrudexample/domain) |
-|Repositories| [repository folder](src/main/java/com/almielka/springbootrestapimysqljpacrudexample/repository) |
-|Services| [service folder](src/main/java/com/almielka/springbootrestapimysqljpacrudexample/service) |
-| REST API Controllers | [controller folder](src/main/java/com/almielka/springbootrestapimysqljpacrudexample/controller) |
-|Security Configuration| [security folder](src/main/java/com/almielka/springbootrestapimysqljpacrudexample/security) |
+| JavaBean domain| [domain folder](src/main/java/com/almielka/restapicrud/domain) |
+|Repositories| [repository folder](src/main/java/com/almielka/restapicrud/repository) |
+|Services| [service folder](src/main/java/com/almielka/restapicrud/service) |
+| REST API Controllers | [controller folder](src/main/java/com/almielka/restapicrud/controller) |
+|Security Configuration| [security folder](src/main/java/com/almielka/restapicrud/security) |
 | Tests | [tetst controllers](src/test/java/com/almielka/springbootrestapimysqljpacrudexample/controller) |
 
 ## Functionality to support managing
