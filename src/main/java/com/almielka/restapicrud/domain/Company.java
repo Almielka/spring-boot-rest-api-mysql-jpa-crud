@@ -37,7 +37,7 @@ import java.util.Set;
 @Table(name = "company", indexes = {@Index(columnList = "name", unique = true)})
 public class Company extends AbstractNameEntity {
 
-    @Column(name = "imagery_type")
+    @Column(name = "company_type")
     @Enumerated(EnumType.STRING)
     private CompanyType companyType;
 

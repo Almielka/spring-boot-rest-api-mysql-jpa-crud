@@ -26,16 +26,18 @@ public class ProductServiceImpl extends CommonServiceImpl<Product, ProductReposi
 
     @Override
     public Set<Product> findByCompanyNameContaining(String name) {
-        return repository.findAll().stream()
-                .filter(item -> item.getCompany().getName().contains(name))
-                .collect(Collectors.toSet());
+//        return repository.findAll().stream()
+//                .filter(item -> item.getCompany().getName().contains(name))
+//                .collect(Collectors.toSet());
+        return repository.findByCompanyNameContaining(name);
     }
 
     @Override
     public Set<Product> findByCompanyType(String type) {
-        return repository.findAll().stream()
-                .filter(item -> item.getCompany().getCompanyType().toString().equals(type.toUpperCase()))
-                .collect(Collectors.toSet());
+//        return repository.findAll().stream()
+//                .filter(item -> item.getCompany().getCompanyType().toString().equals(type.toUpperCase()))
+//                .collect(Collectors.toSet());
+        return repository.findByCompanyType(type.toUpperCase());
     }
 
     @Override
